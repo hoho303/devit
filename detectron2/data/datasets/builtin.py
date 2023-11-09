@@ -60,7 +60,9 @@ _PREDEFINED_SPLITS_COCO["coco_ovd"] = {
     "fs_coco17_base_val": ("coco/val2017", "coco/annotations/fs_coco17_base_val.json"),   
 
     "fs_coco14_base_train": ("coco/train2014", "coco/annotations/fs_coco14_base_train.json"),
-    "fs_coco14_base_val": ("coco/val2014", "coco/annotations/fs_coco14_base_val.json"),   
+    "fs_coco14_base_val": ("coco/val2014", "coco/annotations/fs_coco14_base_val.json"), 
+    
+    "fs_coco14_base_10_shot_train": ("coco/val2014", "coco/annotations/fs_coco14_base_10_shot_train.json"),  
 
     "coco_2017_novel_oneshot_s1_r50": ("coco/train2017", "coco/annotations/coco_2017_novel_oneshot_s1_r50.json"),   
     "coco_2017_novel_oneshot_s2_r50": ("coco/train2017", "coco/annotations/coco_2017_novel_oneshot_s2_r50.json"),   
