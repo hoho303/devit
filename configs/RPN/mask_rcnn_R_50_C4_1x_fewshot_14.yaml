@@ -8,5 +8,5 @@ MODEL:
     NUM_CLASSES: 60
 DATASETS:
   TRAIN: ("fs_coco14_base_10_shot_train",)
-  TEST: ("fs_coco_test_all",)
-  # TEST: ("fs_coco17_base_val",)
+  # TEST: ("fs_coco_test_all",)
+  TEST: ("fs_coco17_base_val",)
