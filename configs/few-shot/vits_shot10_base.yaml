@@ -30,7 +30,7 @@ DATASETS:
   TRAIN: ("fs_coco14_base_10_shot_train",)
   TEST: ("fs_coco_test_all",)
 TEST:
-  EVAL_PERIOD: 5000
+  EVAL_PERIOD: 100000
 SOLVER:
   IMS_PER_BATCH: 16
   BASE_LR: 0.002
