@@ -15,7 +15,8 @@ COCO_2017_SPLIT_2 = 'coco_2017_train_oneshot_s2'
 COCO_2017_SPLIT_3 = 'coco_2017_train_oneshot_s3'
 COCO_2017_SPLIT_4 = 'coco_2017_train_oneshot_s4'
 
-COCO_2014_FEW_SHOT = 'fs_coco14_base_train'
+# COCO_2014_FEW_SHOT = 'fs_coco14_base_train'
+COCO_2014_FEW_SHOT = 'fs_coco14_base_10_shot_train'
 COCO_2017_FEW_SHOT = 'fs_coco17_base_train' # not used
 
 
