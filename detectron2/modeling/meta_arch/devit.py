@@ -961,7 +961,6 @@ class OpenSetDetectorWithExamples(nn.Module):
             return mask_logits.sigmoid()
 
 
-    
     def forward(self, batched_inputs: List[Dict[str, torch.Tensor]]):
         bs = len(batched_inputs)
         loss_dict = {}

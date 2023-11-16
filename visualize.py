@@ -83,7 +83,7 @@ def visualize(pred_path):
 
 if __name__ == '__main__':
     # pred_path = 'DeVIT/eval/few-shot/shot-30/vitl/inference/coco_instances_results.json'
-    # out_path = 'devit/eval/few-shot/shot-10/vitl/inference/filter.json'
-    out_path = 'devit/eval/few-shot/shot-10/vitl/inference/convert_format.json'
+    out_path = 'eval/few-shot/shot-10/vitl/inference/filter.json'
+    # out_path = 'eval/few-shot/shot-10/vitl/inference/convert_format.json'
     # # convert_format_file(pred_path, out_path)
     visualize(out_path)
